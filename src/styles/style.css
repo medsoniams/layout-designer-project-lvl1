@@ -1,7 +1,27 @@
-/** CSS STYLE **/
+:root {
+  /* Цвет */
+  --color-white: #fff; /* Белый */
+  --color-translucent-white: #d7ccc0; /* Полупрозрачный белый */
+  --color-light: #f5f4f0; /* Светлый */
+  --color-primary: #fe8a02; /* Основной */
+  --color-primary-dark: #42413c; /* Основной тёмный */
+  --color-dark: #2a2626; /* Тёмный */
+  --color-translucent-dark: #908d8b; /* Полупрозрачный тёмный */
+  --color-brow: #b09a81; /* Коричневый */
+  --color-blue: #1085c5; /* Синий */
 
-.hello {
-  display: block;
+  /* Шрифт */
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Neucha', sans-serif;
+  --font-size: 16px;
+  --line-height: 1.6em;
+  --text-color: #2A2626;
+  --line-height-h: 1.2em;
+  --font-size-h1: 72px;
+  --font-size-h2: 60px;
+  --font-size-h3: 34px;
 
-  color: #fff;
+  /* Section */
+  --w-1110: 1110px;
+  --margin: 100px;
 }
